@@ -2,9 +2,11 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const nodemailer = require('nodemailer');
+const path = require('path');
+const port = 3000;
 
 app.use(cors({
-    origin: ['http://127.0.0.1:5500', 'http://localhost:5500', 'https://personal-portfolio-rose-alpha-61.vercel.app/'],
+    origin: ['http://127.0.0.1:5500', 'http://localhost:5500', 'http://localhost:3000', 'https://personal-portfolio-rose-alpha-61.vercel.app/'],
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type']
 }));
@@ -19,6 +21,12 @@ const transporter = nodemailer.createTransport({
         user: 'tmhuynh04@gmail.com',
         pass: 'riadubhvyltjuull'
     },
+});
+
+app.use(express.static(path.join(__dirname, '..')));
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../index.html'));
 });
 
 app.post('/api/send-email', async (req, res) => {
@@ -38,4 +46,9 @@ app.post('/api/send-email', async (req, res) => {
         await transporter.sendMail(mailOptions);
         res.status(200).json({ message: 'Email sent successfully'});
 });
+
+app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
+
 module.exports = app;
