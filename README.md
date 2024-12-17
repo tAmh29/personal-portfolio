@@ -1,5 +1,9 @@
 # Personal Portfolio Website
 
+## Live Demo
+- **GitHub Repository**: [Portfolio Website Repository](https://github.com/tAmh29/personal-portfolio.git)
+- **Live Demo**: [Deployed Site](https://personal-portfolio-seven-sigma-41.vercel.app/)
+
 ## Setup and Installation
 
 To run this project locally, follow these steps:
@@ -23,7 +27,3 @@ To run this project locally, follow these steps:
 The website will be available at `http://localhost:3000`.
 
 ---
-
-## Links
-- **GitHub Repository**: [Portfolio Website Repository](https://github.com/tAmh29/personal-portfolio.git)
-- **Live Demo**: [Deployed Site](https://personal-portfolio-seven-sigma-41.vercel.app/)
