@@ -2,7 +2,7 @@
 
 ## Live Demo
 - **GitHub Repository**: [Portfolio Website Repository](https://github.com/tAmh29/personal-portfolio.git)
-- **Live Demo**(Deployed with Vercel): [Deployed Site](https://personal-portfolio-seven-sigma-41.vercel.app/)
+- **Live Demo** (Deployed with Vercel): [Deployed Site](https://personal-portfolio-seven-sigma-41.vercel.app/)
 
 ## Setup and Installation
 
