@@ -5,8 +5,8 @@
 - **Live Demo** (Deployed with Vercel): [Deployed Site](https://personal-portfolio-seven-sigma-41.vercel.app/)
 
 ## Technologies Used
-- HTML
-- CSS 
+- HTML5
+- CSS3
 - JavaScript
 
 ## Setup and Installation
