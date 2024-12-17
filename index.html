@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandon Huynh - Personal Portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="server.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button class="hamburger" aria-label="Toggle menu">
+          <img class="hamburger-icon" src="/src/hamburger.png" alt="Menu" />
+        </button>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="page">
+        <div class="container">
+          <div class="intro-grid">
+            <div class="intro-content">
+              <h1>Brandon Huynh</h1>
+              <p class="bio">
+                This is my first portfolio website I have created, and looking
+                forward to improving the website along with my journey in
+                college at Cal State Fullerton. Feel free to contact me at
+                anytime
+              </p>
+              <div class="contact-buttons">
+                <a href="https://www.instagram.com/tammnm_/" target="_blank">
+                  <img
+                    src="/src/instagram.png"
+                    alt="Instagram"
+                    style="width: 48px; height: 48px"
+                  />
+                </a>
+                <a href="https://www.instagram.com/tammnm_/" target="_blank">
+                  <img
+                    src="/src/github.png"
+                    alt="Instagram"
+                    style="width: 48px; height: 48px"
+                  />
+                </a>
+                <a href="https://www.instagram.com/tammnm_/" target="_blank">
+                  <img
+                    src="/src/linkedin.png"
+                    alt="Instagram"
+                    style="width: 48px; height: 48px"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="profile-container">
+              <img
+                src="/src/1725846384170.jpg"
+                alt="Brandon Huynh"
+                class="profile-photo"
+                style="width: 300px; height: 300px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="page">
+        <div class="about-container">
+          <h2>About Me</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Hello, I'm Brandon. It is my third year at California State
+                University, Fullerton, majoring in Computer Science. This is my
+                first portfolio website. Through my journey in college, I aim to
+                share my experiences, knowledge, and projects related to web
+                development and technology within this portfolio website and on
+                my GitHub.
+              </p>
+
+              <p>
+                When I am not writing code, I enjoy playing video games,
+                listening to music, and spending time in nature.
+              </p>
+              <p>
+                Please feel free to add me on any of your preferred social media
+                sites. I appreciate you for visting my website, and I hope you
+                will find something useful or inspiring on my site.
+              </p>
+              <p>Let's learn, create, and grow together!</p>
+              <a href="/src/My_Resume.pdf" class="btn" download
+                >Download Resume</a
+              >
+            </div>
+            <div class="profile-container">
+              <img
+                src="/src/1725846384170.jpg"
+                alt="Brandon Huynh"
+                class="profile-photo"
+                style="width: 300px; height: 300px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="page">
+        <div class="container">
+          <h2>My Projects</h2>
+          <div class="project-grid">
+            <div class="project-card">
+              <img src="/src/ecommerce.png" alt="E-Commerce Project" />
+              <div class="project-content">
+                <h3 class="project-title">Minecraft E-commerce Website</h3>
+                <p class="project-description">
+                  An e-commerce platform for Minecraft items where players can
+                  purchase and automatically receive items in-game. Built with
+                  Laravel PHP backend for secure transactions and Java
+                  integration for seamless game item transfer.
+                </p>
+                <p class="tech-stack">🛠️ Laravel • Blade • Java</p>
+                <p class="deployment-note">🚧 In Progress....</p>
+              </div>
+              <div class="project-footer">
+                <a
+                  href="https://github.com/SentryoZ/mc-shop"
+                  class="btn"
+                  target="_blank"
+                  >View Details</a
+                >
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="/src/taskmanager.png" alt="Chat Space Project" />
+              <div class="project-content">
+                <h3 class="project-title">Task Manager</h3>
+                <p class="project-description">
+                  A full-stack task management system built with Next.js for the
+                  frontend and PHP backend. Features include task organization,
+                  user authentication, due date tracking, and real-time updates.
+                </p>
+                <p class="tech-stack">🛠️ Next.js • PHP • MySQL</p>
+                <div class="demo-access">
+                  <p>👤 Demo Access:</p>
+                  <p>Email: demouser@example.com</p>
+                  <p>Password: demopassword</p>
+                </div>
+                <p class="deployment-note">
+                  ✨ Deployed -
+                  <a
+                    href="https://www.hostcrafted.online/"
+                    class="deployed-link"
+                    >Click to view live site</a
+                  >
+                </p>
+              </div>
+              <div class="project-footer">
+                <a
+                  href="https://github.com/SentryoZ/task-manager-front-end"
+                  class="btn"
+                  target="_blank"
+                  >View Details</a
+                >
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="/src/chatspace.gif" alt="E-Commerce Project" />
+              <div class="project-content">
+                <h3 class="project-title">Chat Space</h3>
+                <p class="project-description">
+                  A real-time chat application with user authentication. Built
+                  using Vue, JavaScript, and Pusher for real-time updates.
+                </p>
+                <p class="tech-stack">🛠️ Vue • JavaScript • Pusher</p>
+              </div>
+              <div class="project-footer">
+                <a
+                  href="https://github.com/tAmh29/chat-space"
+                  class="btn"
+                  target="_blank"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="page">
+        <div class="container">
+          <h2 style="text-align: center">My Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Frontend</h3>
+              <ul class="skills-list">
+                <li>
+                  <img src="/src/html.png" alt="HTML5" class="skill-icon" />
+                  HTML5
+                </li>
+                <li>
+                  <img src="/src/css.png" alt="CSS3" class="skill-icon" /> CSS3
+                </li>
+                <li>
+                  <img src="/src/js.png" alt="JavaScript" class="skill-icon" />
+                  JavaScript
+                </li>
+                <li>
+                  <img src="/src/nextjs.png" alt="Next.js" class="skill-icon" />
+                  Next.js
+                </li>
+                <li>
+                  <img src="/src/vuejs.png" alt="Vue.js" class="skill-icon" />
+                  Vue.js
+                </li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h3>Backend</h3>
+              <ul class="skills-list">
+                <li>
+                  <img src="/src/php.png" alt="PHP" class="skill-icon" /> PHP
+                </li>
+                <li>
+                  <img
+                    src="/src/laravel.png"
+                    alt="Laravel"
+                    class="skill-icon"
+                  />
+                  Laravel
+                </li>
+                <li>
+                  <img src="/src/nodejs.png" alt="Node.js" class="skill-icon" />
+                  Node.js
+                </li>
+                <li>
+                  <img
+                    src="/src/restapi.png"
+                    alt="RESTful APIs"
+                    class="skill-icon"
+                  />
+                  RESTful APIs
+                </li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h3>Database</h3>
+              <ul class="skills-list">
+                <li>
+                  <img src="/src/mysql.png" alt="MySQL" class="skill-icon" />
+                  MySQL
+                </li>
+                <li>
+                  <img
+                    src="/src/mongodb.png"
+                    alt="MongoDB"
+                    class="skill-icon"
+                  />
+                  MongoDB
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="page">
+        <div class="container">
+          <h2 style="text-align: center">Get In Touch</h2>
+          <p style="text-align: center">
+            Feel free to reach out to me for any inquiries, or just to say hi!
+          </p>
+          <p style="text-align: center">
+            This will send an email to me directly.
+          </p>
+          <p style="text-align: center">
+            I will get back to you as soon as possible.
+          </p>
+          <div class="contact-content">
+            <div class="contact-email">
+              <form id="contact-form" action="/api/send-email" method="POST">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required></textarea>
+                </div>
+                <div style="text-align: center">
+                  <button type="submit" class="btn">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2021-2024 Brandon Huynh. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/tammnm_/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/tAmh29" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/brandon-huynh-125a5527b/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
