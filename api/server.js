@@ -6,7 +6,7 @@ const path = require('path');
 const port = 3000;
 
 app.use(cors({
-    origin: ['http://127.0.0.1:5500', 'http://localhost:5500', 'http://localhost:3000', 'https://personal-portfolio-rose-alpha-61.vercel.app/'],
+    origin: ['http://127.0.0.1:5500', 'http://localhost:5500', 'http://localhost:3000', 'https://personal-portfolio-seven-sigma-41.vercel.app/'],
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type']
 }));
