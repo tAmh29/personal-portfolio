@@ -15,7 +15,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone [https://github.com/yourusername/portfolio-website.git](https://github.com/tAmh29/personal-portfolio.git)
+   git clone https://github.com/tAmh29/personal-portfolio.git
    cd personal-portfolio
    ```
 
